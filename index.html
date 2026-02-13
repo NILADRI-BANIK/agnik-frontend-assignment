@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Animation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="input-section">
+
+      <table class="top-row">
+        <tr>
+          <td>
+            <label for="red">Red</label>
+            <input type="number" id="red" min="0" placeholder="0" />
+          </td>
+          <td>
+            <label for="green">Green</label>
+            <input type="number" id="green" min="0" placeholder="0" />
+          </td>
+          <td>
+            <label for="blue">Blue</label>
+            <input type="number" id="blue" min="0" placeholder="0" />
+          </td>
+        </tr>
+      </table>
+
+      <div class="input-row middle-row">
+        <label for="numCircles">Number Of Circle</label>
+        <input type="number" id="numCircles" min="0" max="10" placeholder="0" />
+      </div>
+
+      <div class="btn-row">
+        <button id="submitBtn">submit</button>
+      </div>
+
+    </div>
+
+    <div class="circle-section" id="circleSection">
+
+      <div class="circle-row" id="redRow"></div>
+      <div class="circle-row" id="greenRow"></div>
+      <div class="circle-row" id="blueRow"></div>
+
+      <div class="action-btn-row" id="actionBtns">
+        <button id="startBtn">start</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

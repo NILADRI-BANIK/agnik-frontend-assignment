@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.input-section {
+  border: 1px solid #999999;
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.top-row {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.top-row td {
+  text-align: center;
+  width: 33%;
+}
+
+.middle-row {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-row {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="number"] {
+  border: 1px solid #999999;
+  padding: 3px 5px;
+  font-size: 14px;
+  width: 140px;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 3px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid #aaaaaa;
+  background-color: #f0f0f0;
+}
+
+.circle-section {
+  border: 1px solid #999999;
+  border-top: none;
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+
+.circle-row {
+  margin-bottom: 15px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: #00cc00;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.action-btn-row {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.action-btn-row button {
+  margin: 0 5px;
+}
